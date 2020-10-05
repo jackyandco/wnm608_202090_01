@@ -1,7 +1,7 @@
 :root {
-	--color-neutrual-dark:#444;
-	--color-neutrual-light:#eee;
-	--color-neutrual-medium:#999;
+	--color-neutral-light:#ff98cc;
+	--color-neutral-medium:#f3bcf6;
+	--color-neutral-dark:#bcf6de;
 }
 
 body {

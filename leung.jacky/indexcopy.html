@@ -5,31 +5,32 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Cool Website</title>
 	<link rel="stylesheet" href="lib/css/styleguide.css">
-	<link rel="stylesheet" type="text/css" href="css/storetheme.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/storetheme.css">
 </head>
 <body>
    
    <!-- header>h1+p -->
-   <header>
+   <header class="navbar">
    	<div class="container display-flex flex-align-center">
+      <div class="flex-none"><h1>Cool Website</h1></div>
    	<div class="flex-stretch"></div>
 
-      <h1>Cool Website</h1>
-         <nav class="nav">
-   	<ul>
-   		<li><a href="#article1">Link 1</a></li>
-   		<li><a href="#article2">Link 2</a></li>
-   		<li><a href="#article3">Link 3</a></li>
-   		<li><a href="#article4">Link 4</a></li>
-   	</ul>
-   </nav>
-   </div>
+      <!-- nav.nav>ul/li/*>a[href=#articles$]>{Link$} -->
+         <nav class="nav flex-none">
+   	     <ul class="display-flex">
+   		    <li><a href="#article1">Hello Kitty1</a></li>
+   		    <li><a href="#article2">Hello Kitty2</a></li>
+   		    <li><a href="#article3">Hello Kitty3</a></li>
+   		    <li><a href="#article4">Hello Kitty4</a></li>
+   	     </ul>
+         </nav>
+      </div>
    </header>
-<div class="view-window">
-	
+<div class="view-window" style="background-image:url(img/hk1.png)">
+	<h2>Product Name</h2>
 </div>
    <div class="container">
-   	<article id="article1" class="article">
+   	<article id="article1" class="article card">
    		<h2>Article 1</h2>
    		<div class="article-body">
    			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Labore natus ullam voluptatem magnam. Iure possimus, veritatis tenetur tempora officia eveniet eos voluptas harum reprehenderit voluptate delectus qui rerum odio molestias magnam accusamus aliquid sit repellat repudiandae quasi aperiam, facere? Suscipit, repudiandae nobis commodi ex consectetur. Molestiae distinctio, eos a aliquam.</p>
@@ -38,7 +39,17 @@
    			<p>Explicabo cumque nostrum, quae. Facere nam, et ipsum quidem nemo eveniet fuga unde mollitia dolorum reprehenderit ea nostrum totam explicabo eum. Voluptate possimus, accusantium iste. Repellendus quia est voluptatibus, veniam, nostrum illum? A quasi quisquam exercitationem! Perspiciatis, mollitia expedita sapiente, voluptatem saepe dolorem consequatur fugit, vel ut laboriosam asperiores, eligendi.</p>
    		</div>
    	</article>
-   	<article id="article2" class="article">
+
+   </div>
+      <div class="view-window" style="background-image:url(img/hk2.jpg)">
+      <h2>Product Name</h2>
+      </div>
+   
+
+   <div class="container">
+
+
+   	<article id="article2" class="article card soft">
    		<h2>Article 2</h2>
    		<div class="article-body">
    			<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Distinctio dolorum omnis vitae, sunt odio voluptate maxime possimus adipisci, sed, consectetur similique iusto illo at eaque soluta? Id libero vel odit nulla delectus accusamus ab. Nobis rem ut error, quae placeat dolores saepe fugiat in, velit cumque dicta deserunt voluptate consequatur!</p>
@@ -48,7 +59,7 @@
    		</div>
    	</article>
 
-   	<article id="article3" class="article">
+   	<article id="article3" class="article card hard">
    		<h2>Article 3</h2>
    		<div class="article-body">
    			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae maiores, aut laborum! Deserunt aperiam omnis fuga tempore accusamus ipsa consequuntur, facere accusantium corporis earum laborum beatae. Cupiditate incidunt cumque tempora, eum minus quam fugit necessitatibus, unde enim vero atque numquam esse laudantium iusto illo blanditiis odio provident mollitia accusantium.</p>
@@ -57,7 +68,7 @@
    			<p>Ab sit ducimus qui eveniet voluptates rem accusantium et error dolor ullam similique, laborum, repellendus, recusandae facere ipsam voluptas iusto minima. Quibusdam voluptas praesentium corporis tempore reiciendis facilis consequatur et dolorem, quasi facere non fugiat temporibus porro, amet cupiditate saepe commodi odio id dolore illo deserunt, beatae dolorum sint rerum.</p>
    		</div>
    	</article>
-   	<article id="article4" class="article">
+   	<article id="article4" class="article card dark">
    		<h2>Article 4</h2>
    		<div class="article-body">
    			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati distinctio vitae, magnam iste in facilis optio id cum, laboriosam quos enim odit quis repellat vel a fugiat est hic sed, quam, fuga sequi esse ex adipisci? Assumenda deserunt rem, qui labore minima iusto ducimus odit, est ipsa esse, voluptatum.</p>

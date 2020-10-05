@@ -5,9 +5,9 @@
 }
 
 :root {
-	--color-neutrual-dark:#444;
-	--color-neutrual-light:#eee;
-	--color-neutrual-medium:#999;
+	--color-neutral-light:#eee;
+	--color-neutral-medium:#999;
+	--color-neutral-dark:#444;
 
 	--color-white:;
 	--color-black:;
@@ -63,24 +63,28 @@ a:hover {
 .flex-justify-center {justify-content: center;}
 
 
-/* */
+/* Component Classes */
 .nav ul {
-
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
 }
 
 .navbar {
-	background-color:var(--color-neutrual-dark);
-	cursor: var(--color-neutrual-light);
+	background-color:var(--color-neutral-dark);
+	color: var(--color-neutral-light);
+	line-height: var(--header-height);
 
 }
 
-.navbar1 h1 {
+.navbar h1 {
 	font-size: 1em;
 	font-family: Helvetica, Arial, sans-serif;
 	margin:0;
 }
 
-.navbar2 {
+.navbar a {
 	padding: 0, 0, 5em;
 }
 
@@ -107,18 +111,23 @@ a:hover {
 }
 
 .card.soft {
+	background-color: var(--color-neutral-light);
 	border-radius: .5em;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .card.hard {
 	border-radius: 0.2em;
-	border: 2px solid var(--color-neutrual-dark);
+	border: 2px solid var(--color-neutral-medium);
+}
+
+.card.dark {
+	background-color: var(--color-neutral-dark);
 	color:var(--color-white);
 }
 
 .card.medium {
-	background-color: var(--color-neutrual-medium)
+	background-color: var(--color-neutral-medium)
 }
 
 .card.flat {
