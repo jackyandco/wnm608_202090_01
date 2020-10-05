@@ -1,0 +1,149 @@
+/* CSS RESET */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+:root {
+	--color-neutrual-dark:#444;
+	--color-neutrual-light:#eee;
+	--color-neutrual-medium:#999;
+
+	--color-white:;
+	--color-black:;
+
+	--header-height:3rem;
+}
+
+
+
+body {
+	margin: 0;
+	font-size: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:Cambria, Georgia, "Times New Roman", serif;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* Layout Classes*/
+.container {
+	max-width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.hidden {display: none;}
+
+.display-flex {display: flex;}
+.display-block {display: block;}
+.display-inline-flex {display: flex;}
+.display-inline-block {display: inline-block;}
+
+.flex-stretch {flex: 1 1 auto;}
+.flex-none {flex: none;}
+
+.flex-align-center {align-items: center;}
+.flex-justify-center {justify-content: center;}
+
+
+/* */
+.nav ul {
+
+}
+
+.navbar {
+	background-color:var(--color-neutrual-dark);
+	cursor: var(--color-neutrual-light);
+
+}
+
+.navbar1 h1 {
+	font-size: 1em;
+	font-family: Helvetica, Arial, sans-serif;
+	margin:0;
+}
+
+.navbar2 {
+	padding: 0, 0, 5em;
+}
+
+
+.view-window {
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	height: 70vh;
+}
+
+
+.card {
+	background-color:var(--color-white);
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.card.soft {
+	border-radius: .5em;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card.hard {
+	border-radius: 0.2em;
+	border: 2px solid var(--color-neutrual-dark);
+	color:var(--color-white);
+}
+
+.card.medium {
+	background-color: var(--color-neutrual-medium)
+}
+
+.card.flat {
+	padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

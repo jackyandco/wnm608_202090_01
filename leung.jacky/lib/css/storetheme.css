@@ -1,0 +1,11 @@
+:root {
+	--color-neutrual-dark:#444;
+	--color-neutrual-light:#eee;
+	--color-neutrual-medium:#999;
+}
+
+body {
+	font-family: Calibri, sans-serif;
+	background-color: #f9f9f9;
+	
+}

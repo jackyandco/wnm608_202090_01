@@ -1,0 +1,34 @@
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 29pt;
+	margin: 100px 100px 10px;
+	text-align: left;
+}
+
+ul {
+	display: list-item;
+	list-style: none;
+	color: gray;
+	justify-content: space-around;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18pt;
+	padding: 0px 60px;
+	margin: 20px 40px;
+}
+
+h2 {
+	font-size: 20pt;
+	padding: 0px 210px;
+	text-align: left;
+	font-family: 'Nunito', sans-serif;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	margin: 0px 100px 100px;
+}
+
+img {
+	margin:10px 50px 0px 100px;
+}
