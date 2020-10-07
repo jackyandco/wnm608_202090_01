@@ -1,11 +1,64 @@
 :root {
-	--color-neutral-light:#ff98cc;
-	--color-neutral-medium:#f3bcf6;
-	--color-neutral-dark:#bcf6de;
+	--color-neutral-light:#fbb03b;
+	--color-neutral-medium:#f9fadc;
+	--color-neutral-dark:#bcf6bf;
+
+	--color-main-light: #a3f975;
+	--color-main-medium: #f15a24;
+	--color-main-dark: #39b54a;
+
+	--color-alt-light: green;
+	--color-alt-medium: orange;
+	--color-alt-dark: yellow;
+
+	--color-warning: red;
+	--color-error: red;
+	--color-purchase: red;
 }
 
 body {
-	font-family: Calibri, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #f9f9f9;
-	
+	text-decoration-color: purple;
+	padding-bottom: 10em;
 }
+
+.view-window>h2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0,0,0,0.3);
+	padding: 1em;
+	border-radius: 1em;
+	color: white;
+	font-size: 3em;
+}
+
+[class*='col-']>.card {
+	height: 100%;
+	margin: 0;
+}
+
+[class*='col-']>.well {
+	height: 100%;
+}
+
+
+@media (max-width: 600px) {
+	h2 {
+		font-size: 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Style Guide</title>
+
+   <base href="/aau/wnm608/leung.jacky/">
+
+
+	<link rel="stylesheet" href="lib/css/styleguide.css">
+	<link rel="stylesheet" href="lib/css/gridsystem.css">
+	<link rel="stylesheet" href="lib/css/storetheme.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+   <header class="navbar">
+   	<div class="container display-flex flex-align-center">
+      <div class="flex-none"><h1>Styleguide</h1></div>
+    </div>
+   </header>
+
+   <nav class="toc container">
+      <div class="card soft">
+         <h2>Table of Contents</h2>
+      <ul>
+         <li><a href="styleguide/#grid">Typography</a></li>
+         <li><a href="styleguide/#grid">Grid</a></li>
+         <ul>
+            <li><a href="styleguide/#basic-grid">Basic Grid</a></li>
+            <li><a href="styleguide/#complex-grid">Complex Grid</a></li>
+            <li><a href="styleguide/#responsive-grid">Responsive Grid</a></li>
+         </ul>
+            <li>
+               <a href="styleguide/#card">Card</a>
+            </li>
+      </ul>
+      </div>
+   </nav>
+
+
+<h2>Typography</h2>
+<div class="container" id="typography">
+   <div class="card soft">
+
+      <h3>Headings</h3>
+
+
+      <h4>Code</h4>
+      <code class="well">&lt;h1>Heading 1&lt;/h1>
+&lt;h2>Heading 2&lt;/h2>
+&lt;h3>Heading 3&lt;/h3>
+&lt;h4>Heading 4&lt;/h4>
+&lt;h5>Heading 5&lt;/h5>
+&lt;h6>Heading 6&lt;/h6>
+      </code>
+      <h4>Example</h4>
+      <div class="well">
+         <!-- h$*6{Heading $}-->
+         <h1>Heading 1</h1>
+         <h2>Heading 2</h2>
+         <h3>Heading 3</h3>
+         <h4>Heading 4</h4>
+         <h5>Heading 5</h5>
+         <h6>Heading 6</h6>
+      </div>
+
+
+      <h3>Paragraphs</h3>
+
+      <div class="well">
+         <p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ratione repellendus aliquid ullam dicta veritatis? Sed praesentium, illum, fuga ullam ducimus accusantium ea, facilis maiores dolores dolorem minus doloremque. Corporis inventore, veritatis officiis, ullam accusamus deserunt. Aliquid cupiditate pariatur, at. Est repellat quidem incidunt, error saepe, at possimus nostrum quam quo.</p>
+         <p>Laboriosam, iure numquam, excepturi veritatis, reprehenderit vel voluptatem repudiandae autem earum quam eaque, maiores voluptas sit quis? Vitae minus officia dignissimos enim blanditiis vel eveniet ad saepe facere cumque distinctio similique, excepturi assumenda corporis maiores aliquid quidem, aspernatur ab soluta magnam fugit eligendi molestias esse, libero! Porro incidunt quidem aliquid?</p>
+         <p>Nulla, veritatis, vel. Earum dolor praesentium laboriosam, quia, voluptatem aliquam hic obcaecati corporis. Deserunt atque beatae incidunt reiciendis, commodi numquam laborum quo obcaecati! Fugit distinctio a dicta id asperiores, quod, et ut corporis quibusdam commodi. Eum, nihil architecto aperiam, quas corrupti magni tempore esse, illum et dicta, velit debitis! At!</p>
+      </div>
+   </div>
+</div>
+
+
+   <div class="container" id="grid">
+   	<div class="card soft">
+   		<h2 id="basic-grid">Basic Grid</h2>
+
+   			<div class="grid">
+   				<div class="col-6"><div class="well">Column 6</div></div>
+   				<div class="col-6"><div class="well">Column 6</div></div>		
+   			</div>
+
+   			<div class="grid">
+   				<div class="col-4"><div class="well">Column 4</div></div>
+   				<div class="col-4"><div class="well">Column 4</div></div>
+   				<div class="col-4"><div class="well">Column 4</div></div>		
+   			</div>
+
+   			<div class="grid">
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   				<div class="col-3"><div class="well">Column 3</div></div>		
+   			</div>
+
+   			<!-- Make sure numbers always add up to 12-->
+   			<div class="grid">
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   				<div class="col-6"><div class="well">Column 6</div></div>
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   			</div>
+
+
+   			<div class="grid">
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   				<div class="col-6"><div class="well">Column 6</div></div>
+   				<div class="col-3"><div class="well">Column 3</div></div>		
+   			</div>
+   	</div>
+   </div>
+
+   <div class="container">
+   	<div class="card soft">
+
+   			<div>
+   				<h2 id="complex-grid">Complex Grid</h2>
+   			</div>
+ 			<hr>
+
+   			<div class="grid">
+   				<div class="col-6"><div class="well">Column 6</div></div>
+   				<div class="col-6"><div class="well">Column 6</div></div>
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   				<div class="col-6"><div class="well">Column 6</div></div>
+   				<div class="col-3"><div class="well">Column 3</div></div>
+   				<div class="col-12"><div class="well">Column 12</div></div>				
+   			</div>
+
+   			<div>
+   				<h2>Grid Within Grid</h2>
+   			</div>
+
+   			<hr>
+   			<div class="grid">
+   				<div class="col-6"><div class="well">
+   					<div class="grid">
+   						<div class="col-3"><div class="well">3</div></div>
+   						<div class="col-3"><div class="well">3</div></div>
+   						<div class="col-3"><div class="well">3</div></div>
+   						<div class="col-3"><div class="well">3</div></div>
+   					</div>
+   				</div></div>
+
+   				<div class="col-6"><div class="well">
+   					<div class="grid">
+   						<div class="col-4"><div class="well">4</div></div>
+   						<div class="col-4"><div class="well">4</div></div>
+   						<div class="col-4"><div class="well">4</div></div>
+   					</div>
+   				</div></div>
+					
+   			</div>
+
+
+   	</div>
+   </div>	
+
+   <div class="container">
+   	<div class="card soft">
+   		<div>
+   			<h2 id="responsive-grid">Responsive Grids</h2>
+   		</div>
+
+   		<div class="grid">
+   			<div class="col-xs-12 col-md-6">
+   				<div class="well">Col 6</div>	 
+   			</div>
+   			<div class="col-xs-12 col-md-6">
+   				<div class="well">Col 6</div>	 
+   			</div>
+   		</div>
+
+   		<hr>
+   		<div class="grid gap">
+   			<div class="col-xs-6 col-md-3">
+   				<div class="well">Col 6</div>
+   			</div>
+   			 <div class="col-xs-6 col-md-3">
+   				<div class="well">Col 6</div>
+   			</div>
+   			 <div class="col-xs-6 col-md-3">
+   				<div class="well">Col 6</div>
+   			</div>
+   			 <div class="col-xs-6 col-md-3">
+   				<div class="well">Col 6</div>
+   			</div>
+   		</div>
+
+   		<div class="grid gap large">
+   			<div class="col-xs-8 col-md-4 col-xl-12">
+   				<div class="well">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Voluptatem earum, accusamus perferendis ipsa hic harum, odio, deleniti iste illum ea corporis tempora, aperiam optio sed. A doloribus distinctio ipsam quo quisquam beatae, animi molestias aperiam dicta dolorum, quis eaque perspiciatis repudiandae pariatur officia voluptate enim, commodi eos illo praesentium dolorem.</div>	 
+   			</div>
+   			<div class="col-xs-4 col-md-4 col-xl-6">
+   				<div class="well">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, odio perspiciatis dolorum quibusdam voluptates tempore, accusantium tenetur repellendus, molestias alias quisquam. Sequi voluptatibus deleniti nostrum dolorum, alias nihil nesciunt iste unde aperiam, ipsa rem optio animi delectus libero tempora voluptates fuga vitae nam itaque modi. Ipsa hic quo tempora magni.</div>	 
+   			</div>
+   			<div class="col-xs-12 col-md-4 col-xl-6">
+   				<div class="well">Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Libero eveniet eligendi hic voluptatem veniam, cumque alias voluptate facere, reprehenderit, accusamus consequuntur odio natus vel voluptas quam non aliquid dolorem doloribus minima delectus nisi sed, harum. Architecto, labore natus! Accusantium vero earum necessitatibus nihil soluta atque exercitationem officiis obcaecati sit, error?</div>	 
+   			</div>
+   		</div>
+   	</div>
+   </div>
+
+
+   <div class="container">
+   	<div class="card soft">
+   		<div>
+   			<h2>Layout</h2>
+   		</div>
+   	</div>
+
+   	<div>
+   		<h3>Title</h3>
+   	</div>
+   	<div class="grid gap">
+   		<div class="col-xs-12 col-md-4">
+   			<div class="card soft"><h3>Item 1</h3>
+   				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, velit.</p>	
+   			</div>
+   		</div>
+   		<div class="col-xs-12 col-md-4">
+   			<div class="card soft"><h3>Item 2</h3>
+   				<p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Possimus, hic.</p>	
+   			</div>
+   		</div>
+   		<div class="col-xs-12 col-md-4">
+   			<div class="card soft"><h3>Item 3</h3>
+   				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, molestias.</p>	
+   			</div>
+   		</div>
+
+   	</div>
+   </div>
+
+
+
+<div class="container" id="card">
+   <h2>Card</h2>
+   <div class="well">
+   <h3>Basic Card</h3>
+
+   <div class="card">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti architecto obcaecati fugiat quidem saepe consequuntur distinctio harum omnis, animi ratione asperiores cumque est debitis incidunt molestiae mollitia. Praesentium, dolorum, assumenda.</div>
+
+   <h3>Soft Card</h3>
+
+   <div class="card soft">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti architecto obcaecati fugiat quidem saepe consequuntur distinctio harum omnis, animi ratione asperiores cumque est debitis incidunt molestiae mollitia. Praesentium, dolorum, assumenda.</div>
+
+   <h3>Hard Card</h3>
+
+   <div class="card hard">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti architecto obcaecati fugiat quidem saepe consequuntur distinctio harum omnis, animi ratione asperiores cumque est debitis incidunt molestiae mollitia. Praesentium, dolorum, assumenda.</div>
+
+
+   <h3>Medium Card</h3>
+
+   <div class="card medium">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti architecto obcaecati fugiat quidem saepe consequuntur distinctio harum omnis, animi ratione asperiores cumque est debitis incidunt molestiae mollitia. Praesentium, dolorum, assumenda.</div>
+
+   <h3>Dark Card</h3>
+
+   <div class="card dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti architecto obcaecati fugiat quidem saepe consequuntur distinctio harum omnis, animi ratione asperiores cumque est debitis incidunt molestiae mollitia. Praesentium, dolorum, assumenda.</div>
+
+   <h3>Rainbow Card</h3>
+
+   <div class="card rainbow">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti architecto obcaecati fugiat quidem saepe consequuntur distinctio harum omnis, animi ratione asperiores cumque est debitis incidunt molestiae mollitia. Praesentium, dolorum, assumenda.</div>
+   </div>
+
+</div>
+
+
+
+<div class="container">
+   <h2>View Window</h2>
+
+   <div class="view-window" style="background-image: url(img/hk2.jpg)">    
+   </div>
+</div>
+
+<div class="container" id="navigations">
+   <h2>Navigations</h2>
+
+   <script>
+      const makeNav = (classes='') => {
+         const links = ['Home','Shop','About','Cart'];
+         document.write(`
+            <div>
+            <nav class="${classes}">
+               <ul>
+                  ${links.reduce((r,o,i)=>r+`<li><a href="#">${o}</a></li>`,'')}
+               </ul>
+            </nav>
+            </div>
+            `)
+      }
+   </script>
+
+   <div class="card soft">
+      <h3>Basic Nav</h3>
+
+      <!-- nav.nav>ul>li*4>a[href=#]{Link $} -->
+      <!-- <nav class="nav"> -->
+      <!--<nav class="nav">
+         <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+         </ul>
+      </nav> -->
+      <div class="grid">
+         <div class="col-xs-4"><script>makeNav(`nav`)</script></div>
+         <div class="col-xs-8"></div>
+      </div>
+      
+   </div>
+
+   <div class="card soft">
+      <h3>Flex Nav</h3>
+      <script>makeNav(`nav flex`)</script>
+   </div>
+
+   <div class="card soft">
+      <h3>Stretch Nav</h3>
+      <script>makeNav(`nav stretch`)</script>
+   </div>
+
+   <div class="card soft">
+      <h3>Pills Nav</h3>
+      <script>makeNav(`nav pills`)</script>
+   </div>
+
+   <div class="card soft">
+      <h3>Breadcrumb Nav</h3>
+      <script>makeNav(`nav breadcrumb`)</script>
+   </div>
+
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
