@@ -82,7 +82,7 @@ code {
 .flex-justify-center {justify-content: center;}
 
 
-/* Component Classes */
+/* Component Classes*/
 .nav ul {
 	list-style-type: none;
 	margin-top: 0;
@@ -216,11 +216,13 @@ code {
 	background-color: var(--color-white);
 
 
-/* TABLES */
+/* TABLES*/
+
 .table {
    width:100%;
    border-collapse:collapse;
 }
+
 .table td,
 .table th {
    text-align:left;
@@ -267,9 +269,11 @@ code {
     border-bottom: 1px solid var(--color-neutral-medium);
     outline: 0;
 }
+
 .form-control {
     margin: 1em 0;
 }
+
 .form-label {
     font-size: 0.8em;
     color: var(--color-neutral-medium);
@@ -290,6 +294,7 @@ code {
     outline: 0;
     -webkit-appearance:none;
 }
+
 .btn:hover,
 .form-button:hover {
    text-decoration:none;
