@@ -5,14 +5,14 @@
 }
 
 :root {
-	--color-neutral-light:#fbb03b;
-	--color-neutral-medium:#a3f975;
+	--color-neutral-medium:#fbb03b;
+	--color-neutral-light:#a3f975;
 	--color-neutral-dark:#39b54a;
 
 	--color-white:#fff;
 	--color-black:#000;
 
-	--header-height:3rem;
+	--header-height:5rem;
 }
 
 
@@ -47,7 +47,7 @@ p {
 }
 
 p::first-letter {
-	margin-left: 2em;
+	margin-left: 3em;
 }
 
 
@@ -181,6 +181,7 @@ code {
 	background-color: var(--color-main-light);
 	border-radius: 0.5em;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	font-size: 13em;
 }
 
 .card.hard {
@@ -236,7 +237,7 @@ code {
 
 .table.lined.all tbody tr,
 .table.lined.horizontal tbody tr {
-   border-top:1px solid var(--color-neutral-medium);
+   border-top:1px solid var(--color-neutral-white);
 }
 
 .table.lined.all th:not(:first-child),
