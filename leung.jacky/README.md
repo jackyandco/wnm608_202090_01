@@ -10,3 +10,4 @@
 - http://www.jackyandco.com/aau/wnm608/leung.jacky/recipes/index.html
 - http://www.jackyandco.com/aau/wnm608/leung.jacky/product/index.html
 - http://www.jackyandco.com/aau/wnm608/leung.jacky/demo/grid.html
+- http://www.jackyandco.com/aau/wnm608/leung.jacky/notes/index.html
